@@ -1,0 +1,173 @@
+  header {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header img {
+  width: 50px;
+}
+
+header h1 {
+  font-family: 'Pacifico', 'cursive';
+  font-size: 30px;
+}
+
+header p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10px;
+}
+
+#logo {
+  display: inline-block;
+}
+
+#small-logo{
+  float: right;
+}
+
+#small-logo img {
+  margin-top: 2vh;
+  width: 30px;
+}
+
+header hr {
+  height: 10px;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
+  border: none;
+}
+
+main {
+  margin-top: 10vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#print {
+  display: inline;
+}
+
+main h2 {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+main #print {
+  font-size: 12px;
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+#print p {
+  display: inline-block;
+}
+
+#print img {
+  width: 20px;
+  float: right;
+}
+
+#chocoPic img {
+  text-align: center;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+main #paragraph p {
+  margin-top: 3vh;
+  text-indent: 2em;
+}
+
+main #checklist img {
+  margin-top:3vh;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+main ul{
+  margin-top:5vh;
+}
+
+main #leftList {
+  top: 170vh;
+  left: 20vw;
+  position: absolute;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color:grey;
+}
+
+main #rightList{
+  top: 170vh;
+  left: 40vw;
+  position: absolute;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color:grey;
+}
+
+.checking {
+  color: grey;
+
+}
+.stricker {
+  text-decoration:line-through;
+
+}
+
+
+main #leftList li{  
+  margin-top: 3vh;
+}
+
+main #rightList li{  
+  margin-top: 3vh;
+}
+
+main hr {
+  height: 10px;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
+  border: none;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  size:20px;
+  font-weight: bold;
+}
+
+#bio img{
+float:left;
+}
+
+#bio h3, p {
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  color: rgb(87, 86, 86);
+}
+
+#bio button {  
+  top: 25%;
+  background-color:rgb(156, 80, 52);
+  color:white;
+  float: right;
+  padding:15px 25px;
+}
+
+footer {
+  margin-top: 15vh;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  color: rgb(168, 168, 168);
+}
+
+footer .footerHr {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
